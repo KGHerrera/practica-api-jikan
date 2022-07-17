@@ -1,0 +1,34 @@
+.navbar-conteiner{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #111826;
+    color: white;
+    height: 10vh;
+    width: 100%;
+    font-size: 16px;
+    box-shadow: 0 0 20px #06080c77;
+    position: sticky;
+    top: 0;
+}
+
+.search-conteiner > form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-textfield{
+    margin-left: 20px;
+    border: none;
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #525252;
+}
